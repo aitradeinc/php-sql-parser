@@ -128,6 +128,12 @@ class ColumnDefinitionProcessor extends AbstractProcessor {
                 $currCategory = 'SINGLE_PARAM_PARENTHESIS';
                 continue 2;
 
+            case 'JSON':
+                $expr[] = array('expr_type' => ExpressionType::DATA_TYPE, 'base_expr' => $trim);
+                $prevCategory = 'TEXT';
+                $currCategory = 'SINGLE_PARAM_PARENTHESIS';
+                continue 2;
+
             case 'VARBINARY':
                 $expr[] = array('expr_type' => ExpressionType::DATA_TYPE, 'base_expr' => $trim, 'length' => false);
                 $prevCategory = $upper;
