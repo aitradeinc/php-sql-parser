@@ -1,31 +1,8 @@
 {
-	"name" : "greenlion/php-sql-parser",
+	"name" : "aitradeinc/php-sql-parser",
 	"type" : "library",
-	"description" : "A pure PHP SQL (non validating) parser w/ focus on MySQL dialect of SQL",
-	"keywords" : [
-		"sql",
-		"parser",
-		"creator",
-		"MySQL"
-	],
-	"homepage" : "https://github.com/greenlion/PHP-SQL-Parser",
-	"license" : "BSD-3-Clause",
-	"authors" : [{
-			"name" : "Justin Swanhart",
-			"email" : "greenlion@gmail.com",
-			"homepage" : "http://code.google.com/u/greenlion@gmail.com/",
-			"role" : "Owner"
-		}, {
-			"name" : "André Rothe",
-			"email" : "phosco@gmx.de",
-			"homepage" : "https://www.phosco.info",
-			"role" : "Committer"
-		}
-	],
-	"support" : {
-		"issues" : "https://github.com/greenlion/PHP-SQL-Parser/issues",
-		"source" : "https://github.com/greenlion/PHP-SQL-Parser"
-	},
+	"description" : "A PHP SQL parser",
+	"license" : "MIT",
 	"autoload" : {
 		"psr-0" : {
 			"PHPSQLParser\\" : "src/"
